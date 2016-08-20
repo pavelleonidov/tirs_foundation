@@ -18,7 +18,7 @@
 	}
   ],
   "replace": {
-	"exc_foundation": "self.version"
+	"tirs_foundation": "self.version"
   },
   "config": {
 	"vendor-dir": ".Build/vendor",

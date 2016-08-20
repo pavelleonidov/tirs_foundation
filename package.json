@@ -1,0 +1,23 @@
+{
+  "name": "tirs_foundation",
+  "version": "8.2.0",
+  "description": "Foundation dependencies for tirs_foundation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavelleonidov/tirs_foundation.git"
+  },
+  "author": "Pavel Leonidov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavelleonidov/tirs_foundation/issues"
+  },
+  "homepage": "https://github.com/pavelleonidov/tirs_foundation#readme",
+  "dependencies": {
+    "babel-cli": "^6.11.4",
+    "foundation-sites": "^6.2.3"
+  }
+}

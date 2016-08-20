@@ -1,5 +1,5 @@
 {
-  "name": "tirs/exc-foundation",
+  "name": "tirs/tirs-foundation",
   "type": "typo3-cms-extension",
   "description": "Base distribution extension based on Foundation 6.2.",
   "homepage": "http://www.pavel-leonidov.de",

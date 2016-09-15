@@ -1,0 +1,8 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<div id="c{data.uid}" class="two-column {f:if(condition: '{data.layout} != "0"', then: '{data.layout}', else: 'default')}<f:if condition="{background}"><f:then> background</f:then><f:else><f:if condition="{data.background_color}"> background</f:if></f:else></f:if>" <f:if condition="{background}"><f:then>style="background-image: url({f:uri.image(src: '{background.0.uid}', treatIdAsReference: 1)})"</f:then><f:else><f:if condition="{data.background_color}">style="background-color: {data.background_color};"</f:if></f:else></f:if>>
+    <div class="row{f:if(condition: '{collapse}', then: ' collapse')}{f:if(condition: '{collapseOnSmall}', then: ' small-collapse medium-uncollapse')}"{f:if(condition: '{equalizeColumns}', then: ' data-equalizer data-equalize-on="medium"')}>
+        <f:render partial="Header" arguments="{_all}" />
+        <f:render section="main" />
+    </div>
+</div>
+</html>

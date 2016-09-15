@@ -1,0 +1,1 @@
+TCEFORM.tt_content.layout.addItems.block-grid = Image block grid

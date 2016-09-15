@@ -1,0 +1,1 @@
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:exc_foundation/Configuration/PageTSConfig/lib/" extensions="ts">

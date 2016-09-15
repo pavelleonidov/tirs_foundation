@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<sDEF>
+			<ROOT type="array">
+				<TCEforms>
+					<sheetTitle>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.sheet.layout</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+
+			</ROOT>
+		</sDEF>
+	</sheets>
+</T3DataStructure>

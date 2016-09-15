@@ -1,0 +1,41 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+
+{namespace exc = EXCONCEPT\Configuration\ViewHelpers}
+
+<f:if condition="{data.layout} == 4">
+    <exc:includeFile path="EXT:exc_configuration/Resources/Public/SCSS/slick.scss" />
+</f:if>
+<exc:includeFile path="EXT:exc_foundation/Resources/Public/SCSS/app.scss" />
+
+<f:render partial="Header" arguments="{_all}" />
+<f:render section="main" />
+<f:render partial="Footer" arguments="{_all}" />
+
+<f:if condition="{data.layout} == 4">
+    <exc:includeFile path="EXT:exc_configuration/Resources/Public/Contrib/slick/slick.min.js" />
+    <exc:includeFile path="EXT:exc_configuration/Resources/Public/JS/app_slick.js" />
+</f:if>
+
+<exc:includeFile path="EXT:exc_foundation/Resources/Public/JS/dist/foundation.core.js" />
+<exc:includeFile path="EXT:exc_foundation/Resources/Public/JS/dist/foundation.offcanvas.js" />
+<exc:includeFile path="EXT:exc_foundation/Resources/Public/JS/dist/foundation.util.mediaQuery.js" />
+<exc:includeFile path="EXT:exc_foundation/Resources/Public/JS/dist/foundation.util.timerAndImageLoader.js" />
+<exc:includeFile path="EXT:exc_foundation/Resources/Public/JS/dist/foundation.util.touch.js" />
+<exc:includeFile path="EXT:exc_foundation/Resources/Public/JS/dist/foundation.util.triggers.js" />
+<exc:includeFile path="EXT:exc_foundation/Resources/Public/JS/dist/foundation.util.keyboard.js" />
+<exc:includeFile path="EXT:exc_foundation/Resources/Public/JS/dist/foundation.util.box.js" />
+<exc:includeFile path="EXT:exc_foundation/Resources/Public/JS/dist/foundation.util.nest.js" />
+<exc:includeFile path="EXT:exc_foundation/Resources/Public/JS/dist/foundation.util.motion.js" />
+<exc:includeFile path="EXT:exc_foundation/Resources/Public/JS/dist/foundation.dropdown.js" />
+<exc:includeFile path="EXT:exc_foundation/Resources/Public/JS/dist/foundation.dropdownMenu.js" />
+<exc:includeFile path="EXT:exc_foundation/Resources/Public/JS/dist/foundation.accordion.js" />
+<exc:includeFile path="EXT:exc_foundation/Resources/Public/JS/dist/foundation.accordionMenu.js" />
+<exc:includeFile path="EXT:exc_foundation/Resources/Public/JS/dist/foundation.sticky.js" />
+<exc:includeFile path="EXT:exc_foundation/Resources/Public/JS/dist/foundation.magellan.js" />
+<exc:includeFile path="EXT:exc_foundation/Resources/Public/JS/dist/foundation.toggler.js" />
+<exc:includeFile path="EXT:exc_foundation/Resources/Public/JS/dist/foundation.drilldown.js" />
+
+<exc:includeFile path="EXT:exc_foundation/Resources/Public/JS/app.js" />
+
+</html>

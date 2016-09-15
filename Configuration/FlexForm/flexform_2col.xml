@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<sDEF>
+			<ROOT type="array">
+				<TCEforms>
+					<sheetTitle>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.sheet.mediumDevices</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el type="array">
+					<mdCol1 type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col1</label>
+							<config type="array">
+								<type>select</type>
+								<default>medium-6</default>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">25% (medium-3)</numIndex>
+										<numIndex index="1">medium-3</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">33% (medium-4)</numIndex>
+										<numIndex index="1">medium-4</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">50% (medium-6)</numIndex>
+										<numIndex index="1">medium-6</numIndex>
+									</numIndex>
+									<numIndex index="4" type="array">
+										<numIndex index="0">66% (medium-8)</numIndex>
+										<numIndex index="1">medium-8</numIndex>
+									</numIndex>
+									<numIndex index="5" type="array">
+										<numIndex index="0">75% (medium-9)</numIndex>
+										<numIndex index="1">medium-9</numIndex>
+									</numIndex>
+									<numIndex index="6" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
+										<numIndex index="1">--div--</numIndex>
+									</numIndex>
+									<numIndex index="7" type="array">
+										<numIndex index="0">8.3% (medium-1)</numIndex>
+										<numIndex index="1">medium-1</numIndex>
+									</numIndex>
+									<numIndex index="8" type="array">
+										<numIndex index="0">16.6%  (medium-2)</numIndex>
+										<numIndex index="1">medium-2</numIndex>
+									</numIndex>
+									<numIndex index="9" type="array">
+										<numIndex index="0">41.6% (medium-5)</numIndex>
+										<numIndex index="1">medium-5</numIndex>
+									</numIndex>
+									<numIndex index="10" type="array">
+										<numIndex index="0">58.3% (medium-7)</numIndex>
+										<numIndex index="1">medium-7</numIndex>
+									</numIndex>
+									<numIndex index="11" type="array">
+										<numIndex index="0">83.3% (medium-10)</numIndex>
+										<numIndex index="1">medium-10</numIndex>
+									</numIndex>
+									<numIndex index="12" type="array">
+										<numIndex index="0">91.6% (medium-11)</numIndex>
+										<numIndex index="1">medium-11</numIndex>
+									</numIndex>
+									<numIndex index="13" type="array">
+										<numIndex index="0">100% (medium-12)</numIndex>
+										<numIndex index="1">medium-12</numIndex>
+									</numIndex>
+									<numIndex index="14" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.special</numIndex>
+										<numIndex index="1">--div--</numIndex>
+									</numIndex>
+									<numIndex index="15" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
+										<numIndex index="1">hide-for-medium-only</numIndex>
+									</numIndex>
+									<numIndex index="16" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
+										<numIndex index="1">show-for-medium-only</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</mdCol1>
+					<mdCol2 type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col2</label>
+							<config type="array">
+								<type>select</type>
+								<default>medium-6</default>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">25% (medium-3)</numIndex>
+										<numIndex index="1">medium-3</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">33% (medium-4)</numIndex>
+										<numIndex index="1">medium-4</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">50% (medium-6)</numIndex>
+										<numIndex index="1">medium-6</numIndex>
+									</numIndex>
+									<numIndex index="4" type="array">
+										<numIndex index="0">66% (medium-8)</numIndex>
+										<numIndex index="1">medium-8</numIndex>
+									</numIndex>
+									<numIndex index="5" type="array">
+										<numIndex index="0">75% (medium-9)</numIndex>
+										<numIndex index="1">medium-9</numIndex>
+									</numIndex>
+									<numIndex index="6" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
+										<numIndex index="1">--div--</numIndex>
+									</numIndex>
+									<numIndex index="7" type="array">
+										<numIndex index="0">8.3% (medium-1)</numIndex>
+										<numIndex index="1">medium-1</numIndex>
+									</numIndex>
+									<numIndex index="8" type="array">
+										<numIndex index="0">16.6%  (medium-2)</numIndex>
+										<numIndex index="1">medium-2</numIndex>
+									</numIndex>
+									<numIndex index="9" type="array">
+										<numIndex index="0">41.6% (medium-5)</numIndex>
+										<numIndex index="1">medium-5</numIndex>
+									</numIndex>
+									<numIndex index="10" type="array">
+										<numIndex index="0">58.3% (medium-7)</numIndex>
+										<numIndex index="1">medium-7</numIndex>
+									</numIndex>
+									<numIndex index="11" type="array">
+										<numIndex index="0">83.3% (medium-10)</numIndex>
+										<numIndex index="1">medium-10</numIndex>
+									</numIndex>
+									<numIndex index="12" type="array">
+										<numIndex index="0">91.6% (medium-11)</numIndex>
+										<numIndex index="1">medium-11</numIndex>
+									</numIndex>
+									<numIndex index="13" type="array">
+										<numIndex index="0">100% (medium-12)</numIndex>
+										<numIndex index="1">medium-12</numIndex>
+									</numIndex>
+									<numIndex index="14" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.special</numIndex>
+										<numIndex index="1">--div--</numIndex>
+									</numIndex>
+									<numIndex index="15" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
+										<numIndex index="1">hide-for-medium-only</numIndex>
+									</numIndex>
+									<numIndex index="16" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
+										<numIndex index="1">show-for-medium-only</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</mdCol2>
+				</el>
+			</ROOT>
+		</sDEF>
+		<smallDevices>
+			<ROOT type="array">
+				<TCEforms>
+					<sheetTitle>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.sheet.smallDevices</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el type="array">
+					<smCol1 type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col1</label>
+							<config type="array">
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">25% (small-3)</numIndex>
+										<numIndex index="1">small-3</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">33% (small-4)</numIndex>
+										<numIndex index="1">small-4</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">50% (small-6)</numIndex>
+										<numIndex index="1">small-6</numIndex>
+									</numIndex>
+									<numIndex index="4" type="array">
+										<numIndex index="0">66% (small-8)</numIndex>
+										<numIndex index="1">small-8</numIndex>
+									</numIndex>
+									<numIndex index="5" type="array">
+										<numIndex index="0">75% (small-9)</numIndex>
+										<numIndex index="1">small-9</numIndex>
+									</numIndex>
+									<numIndex index="6" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
+										<numIndex index="1">--div--</numIndex>
+									</numIndex>
+									<numIndex index="7" type="array">
+										<numIndex index="0">8.3% (small-1)</numIndex>
+										<numIndex index="1">small-1</numIndex>
+									</numIndex>
+									<numIndex index="8" type="array">
+										<numIndex index="0">16.6%  (small-2)</numIndex>
+										<numIndex index="1">small-2</numIndex>
+									</numIndex>
+									<numIndex index="9" type="array">
+										<numIndex index="0">41.6% (small-5)</numIndex>
+										<numIndex index="1">small-5</numIndex>
+									</numIndex>
+									<numIndex index="10" type="array">
+										<numIndex index="0">58.3% (small-7)</numIndex>
+										<numIndex index="1">small-7</numIndex>
+									</numIndex>
+									<numIndex index="11" type="array">
+										<numIndex index="0">83.3% (small-10)</numIndex>
+										<numIndex index="1">small-10</numIndex>
+									</numIndex>
+									<numIndex index="12" type="array">
+										<numIndex index="0">91.6% (small-11)</numIndex>
+										<numIndex index="1">small-11</numIndex>
+									</numIndex>
+									<numIndex index="13" type="array">
+										<numIndex index="0">100% (small-12)</numIndex>
+										<numIndex index="1">small-12</numIndex>
+									</numIndex>
+									<numIndex index="14" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreOptions</numIndex>
+										<numIndex index="1">--div--</numIndex>
+									</numIndex>
+									<numIndex index="15" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
+										<numIndex index="1">hide-for-small-only</numIndex>
+									</numIndex>
+									<numIndex index="16" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
+										<numIndex index="1">show-for-small-only</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</smCol1>
+					<smCol2 type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col2</label>
+							<config type="array">
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">25% (small-3)</numIndex>
+										<numIndex index="1">small-3</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">33% (small-4)</numIndex>
+										<numIndex index="1">small-4</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">50% (small-6)</numIndex>
+										<numIndex index="1">small-6</numIndex>
+									</numIndex>
+									<numIndex index="4" type="array">
+										<numIndex index="0">66% (small-8)</numIndex>
+										<numIndex index="1">small-8</numIndex>
+									</numIndex>
+									<numIndex index="5" type="array">
+										<numIndex index="0">75% (small-9)</numIndex>
+										<numIndex index="1">small-9</numIndex>
+									</numIndex>
+									<numIndex index="6" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
+										<numIndex index="1">--div--</numIndex>
+									</numIndex>
+									<numIndex index="7" type="array">
+										<numIndex index="0">8.3% (small-1)</numIndex>
+										<numIndex index="1">small-1</numIndex>
+									</numIndex>
+									<numIndex index="8" type="array">
+										<numIndex index="0">16.6%  (small-2)</numIndex>
+										<numIndex index="1">small-2</numIndex>
+									</numIndex>
+									<numIndex index="9" type="array">
+										<numIndex index="0">41.6% (small-5)</numIndex>
+										<numIndex index="1">small-5</numIndex>
+									</numIndex>
+									<numIndex index="10" type="array">
+										<numIndex index="0">58.3% (small-7)</numIndex>
+										<numIndex index="1">small-7</numIndex>
+									</numIndex>
+									<numIndex index="11" type="array">
+										<numIndex index="0">83.3% (small-10)</numIndex>
+										<numIndex index="1">small-10</numIndex>
+									</numIndex>
+									<numIndex index="12" type="array">
+										<numIndex index="0">91.6% (small-11)</numIndex>
+										<numIndex index="1">small-11</numIndex>
+									</numIndex>
+									<numIndex index="13" type="array">
+										<numIndex index="0">100% (small-12)</numIndex>
+										<numIndex index="1">small-12</numIndex>
+									</numIndex>
+									<numIndex index="14" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreOptions</numIndex>
+										<numIndex index="1">--div--</numIndex>
+									</numIndex>
+									<numIndex index="15" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
+										<numIndex index="1">hide-for-small-only</numIndex>
+									</numIndex>
+									<numIndex index="16" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
+										<numIndex index="1">show-for-small-only</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</smCol2>
+				</el>
+			</ROOT>
+		</smallDevices>
+		<largeDevices>
+			<ROOT type="array">
+				<TCEforms>
+					<sheetTitle>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.sheet.largeDevices</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el type="array">
+					<lgCol1 type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col1</label>
+							<config type="array">
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">25% (large-3)</numIndex>
+										<numIndex index="1">large-3</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">33% (large-4)</numIndex>
+										<numIndex index="1">large-4</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">50% (large-6)</numIndex>
+										<numIndex index="1">large-6</numIndex>
+									</numIndex>
+									<numIndex index="4" type="array">
+										<numIndex index="0">66% (large-8)</numIndex>
+										<numIndex index="1">large-8</numIndex>
+									</numIndex>
+									<numIndex index="5" type="array">
+										<numIndex index="0">75% (large-9)</numIndex>
+										<numIndex index="1">large-9</numIndex>
+									</numIndex>
+									<numIndex index="6" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
+										<numIndex index="1">--div--</numIndex>
+									</numIndex>
+									<numIndex index="7" type="array">
+										<numIndex index="0">8.3% (large-1)</numIndex>
+										<numIndex index="1">large-1</numIndex>
+									</numIndex>
+									<numIndex index="8" type="array">
+										<numIndex index="0">16.6%  (large-2)</numIndex>
+										<numIndex index="1">large-2</numIndex>
+									</numIndex>
+									<numIndex index="9" type="array">
+										<numIndex index="0">41.6% (large-5)</numIndex>
+										<numIndex index="1">large-5</numIndex>
+									</numIndex>
+									<numIndex index="10" type="array">
+										<numIndex index="0">58.3% (large-7)</numIndex>
+										<numIndex index="1">large-7</numIndex>
+									</numIndex>
+									<numIndex index="11" type="array">
+										<numIndex index="0">83.3% (large-10)</numIndex>
+										<numIndex index="1">large-10</numIndex>
+									</numIndex>
+									<numIndex index="12" type="array">
+										<numIndex index="0">91.6% (large-11)</numIndex>
+										<numIndex index="1">large-11</numIndex>
+									</numIndex>
+									<numIndex index="13" type="array">
+										<numIndex index="0">100% (large-12)</numIndex>
+										<numIndex index="1">large-12</numIndex>
+									</numIndex>
+									<numIndex index="14" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreOptions</numIndex>
+										<numIndex index="1">--div--</numIndex>
+									</numIndex>
+									<numIndex index="15" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
+										<numIndex index="1">hide-for-large-only</numIndex>
+									</numIndex>
+									<numIndex index="16" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
+										<numIndex index="1">show-for-large-only</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</lgCol1>
+					<lgCol2 type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col2</label>
+							<config type="array">
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">25% (large-3)</numIndex>
+										<numIndex index="1">large-3</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">33% (large-4)</numIndex>
+										<numIndex index="1">large-4</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">50% (large-6)</numIndex>
+										<numIndex index="1">large-6</numIndex>
+									</numIndex>
+									<numIndex index="4" type="array">
+										<numIndex index="0">66% (large-8)</numIndex>
+										<numIndex index="1">large-8</numIndex>
+									</numIndex>
+									<numIndex index="5" type="array">
+										<numIndex index="0">75% (large-9)</numIndex>
+										<numIndex index="1">large-9</numIndex>
+									</numIndex>
+									<numIndex index="6" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
+										<numIndex index="1">--div--</numIndex>
+									</numIndex>
+									<numIndex index="7" type="array">
+										<numIndex index="0">8.3% (large-1)</numIndex>
+										<numIndex index="1">large-1</numIndex>
+									</numIndex>
+									<numIndex index="8" type="array">
+										<numIndex index="0">16.6%  (large-2)</numIndex>
+										<numIndex index="1">large-2</numIndex>
+									</numIndex>
+									<numIndex index="9" type="array">
+										<numIndex index="0">41.6% (large-5)</numIndex>
+										<numIndex index="1">large-5</numIndex>
+									</numIndex>
+									<numIndex index="10" type="array">
+										<numIndex index="0">58.3% (large-7)</numIndex>
+										<numIndex index="1">large-7</numIndex>
+									</numIndex>
+									<numIndex index="11" type="array">
+										<numIndex index="0">83.3% (large-10)</numIndex>
+										<numIndex index="1">large-10</numIndex>
+									</numIndex>
+									<numIndex index="12" type="array">
+										<numIndex index="0">91.6% (large-11)</numIndex>
+										<numIndex index="1">large-11</numIndex>
+									</numIndex>
+									<numIndex index="13" type="array">
+										<numIndex index="0">100% (large-12)</numIndex>
+										<numIndex index="1">large-12</numIndex>
+									</numIndex>
+									<numIndex index="14" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreOptions</numIndex>
+										<numIndex index="1">--div--</numIndex>
+									</numIndex>
+									<numIndex index="15" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
+										<numIndex index="1">hide-for-large-only</numIndex>
+									</numIndex>
+									<numIndex index="16" type="array">
+										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
+										<numIndex index="1">show-for-large-only</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</lgCol2>
+				</el>
+			</ROOT>
+		</largeDevices>
+		<customClasses>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.sheet.customClasses</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el type="array">
+					<col21class type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col1</label>
+							<config type="array">
+								<type>input</type>
+								<eval>trim</eval>
+							</config>
+						</TCEforms>
+					</col21class>
+					<col22class type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col2</label>
+							<config type="array">
+								<type>input</type>
+								<eval>trim</eval>
+							</config>
+						</TCEforms>
+					</col22class>
+				</el>
+			</ROOT>
+		</customClasses>
+		<misc>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.sheet.misc</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el type="array">
+					<collapse type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.collapse</label>
+							<config type="array">
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</collapse>
+					<collapseOnSmall type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.collapseOnSmall</label>
+							<config type="array">
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</collapseOnSmall>
+					<equalizeColumns type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.equalizeColumns</label>
+							<config type="array">
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</equalizeColumns>
+				</el>
+			</ROOT>
+		</misc>
+	</sheets>
+</T3DataStructure>

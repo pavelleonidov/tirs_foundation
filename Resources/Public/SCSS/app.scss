@@ -1,0 +1,4 @@
+// Default mixin, further customazition see exc_template (the actual site template of the site project)
+@import "foundation/foundation";
+
+@include foundation-everything(false);

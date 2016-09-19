@@ -24,14 +24,14 @@ $EM_CONF[$_EXTKEY] = array(
 	'version' => '7.6.0',
 	'constraints' => array(
 		'depends' => array(
-			'typo3' => '7.6.0-8.3.99',
-			'fluid_styled_content' => '7.6.0-8.3.99',
-			'tirs_configuration' => '7.6.0-8.3.99'
+			'typo3' => '7.6.0-8.6.99',
+			'fluid_styled_content' => '7.6.0-8.6.99',
+			'tirs_configuration' => '7.6.0-8.6.99'
 		),
 		'conflicts' => array(
 		),
 		'suggests' => array(
-			'gridelements' => '7.6.0-8.3.99'
+			'gridelements' => '7.6.0-8.6.99'
 		),
 	),
 );

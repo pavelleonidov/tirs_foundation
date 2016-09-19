@@ -1,4 +1,4 @@
-// Default mixin, further customazition see exc_template (the actual site template of the site project)
-@import "foundation/foundation";
+// Default mixin, further customazition see tirs_template (the actual site template of the site project)
+@import "../../../node_modules/foundation-sites/scss/foundation";
 
 @include foundation-everything(false);

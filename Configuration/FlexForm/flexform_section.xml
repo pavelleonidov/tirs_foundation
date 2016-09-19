@@ -7,7 +7,7 @@
 		<sDEF>
 			<ROOT type="array">
 				<TCEforms>
-					<sheetTitle>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.sheet.layout</sheetTitle>
+					<sheetTitle>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.sheet.layout</sheetTitle>
 				</TCEforms>
 				<type>array</type>
 

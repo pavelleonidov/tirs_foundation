@@ -3,16 +3,16 @@ lib.fluidGrid = FLUIDTEMPLATE
 lib.fluidGrid {
     templateName = Default
     layoutRootPaths {
-        0 = EXT:exc_foundation/Resources/Private/Layouts/GridElements
-        10 = {$exc_foundation.templates.gridelements.layoutRootPath}
+        0 = EXT:tirs_foundation/Resources/Private/Layouts/GridElements
+        10 = {$tirs_foundation.templates.gridelements.layoutRootPath}
     }
     partialRootPaths {
-        0 = EXT:exc_foundation/Resources/Private/Partials/GridElements
-        10 = {$exc_foundation.templates.gridelements.partialRootPath}
+        0 = EXT:tirs_foundation/Resources/Private/Partials/GridElements
+        10 = {$tirs_foundation.templates.gridelements.partialRootPath}
     }
     templateRootPaths {
-        0 = EXT:exc_foundation/Resources/Private/Templates/GridElements
-        10 = {$exc_foundation.templates.gridelements.templateRootPath}
+        0 = EXT:tirs_foundation/Resources/Private/Templates/GridElements
+        10 = {$tirs_foundation.templates.gridelements.templateRootPath}
     }
 }
 

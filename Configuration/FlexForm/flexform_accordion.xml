@@ -7,13 +7,13 @@
 		<sDEF>
 			<ROOT type="array">
 				<TCEforms>
-					<sheetTitle>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.sheet.layout</sheetTitle>
+					<sheetTitle>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.sheet.layout</sheetTitle>
 				</TCEforms>
 				<type>array</type>
 				<el type="array">
 					<expandFirst>
 						<TCEforms>
-							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.accordion.expandFirst</label>
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.accordion.expandFirst</label>
 							<config>
 								<type>check</type>
 							</config>

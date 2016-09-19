@@ -7,19 +7,19 @@
 		<sDEF>
 			<ROOT type="array">
 				<TCEforms>
-					<sheetTitle>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.sheet.mediumDevices</sheetTitle>
+					<sheetTitle>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.sheet.mediumDevices</sheetTitle>
 				</TCEforms>
 				<type>array</type>
 				<el type="array">
 					<mdCol1 type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col1</label>
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col1</label>
 							<config type="array">
 								<type>select</type>
 								<default>medium-3</default>
 								<items type="array">
 									<numIndex index="0" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
 										<numIndex index="1"></numIndex>
 									</numIndex>
 									<numIndex index="1" type="array">
@@ -43,7 +43,7 @@
 										<numIndex index="1">medium-9</numIndex>
 									</numIndex>
 									<numIndex index="6" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
 										<numIndex index="1">--div--</numIndex>
 									</numIndex>
 									<numIndex index="7" type="array">
@@ -75,15 +75,15 @@
 										<numIndex index="1">medium-12</numIndex>
 									</numIndex>
 									<numIndex index="14" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.special</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.special</numIndex>
 										<numIndex index="1">--div--</numIndex>
 									</numIndex>
 									<numIndex index="15" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
 										<numIndex index="1">hidden-md</numIndex>
 									</numIndex>
 									<numIndex index="16" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
 										<numIndex index="1">visible-md</numIndex>
 									</numIndex>
 								</items>
@@ -92,13 +92,13 @@
 					</mdCol1>
 					<mdCol2 type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col2</label>
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col2</label>
 							<config type="array">
 								<type>select</type>
 								<default>medium-3</default>
 								<items type="array">
 									<numIndex index="16" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
 										<numIndex index="1"></numIndex>
 									</numIndex>
 									<numIndex index="1" type="array">
@@ -122,7 +122,7 @@
 										<numIndex index="1">medium-9</numIndex>
 									</numIndex>
 									<numIndex index="6" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
 										<numIndex index="1">--div--</numIndex>
 									</numIndex>
 									<numIndex index="7" type="array">
@@ -154,15 +154,15 @@
 										<numIndex index="1">medium-12</numIndex>
 									</numIndex>
 									<numIndex index="13" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.special</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.special</numIndex>
 										<numIndex index="1">--div--</numIndex>
 									</numIndex>
 									<numIndex index="14" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
 										<numIndex index="1">hidden-md</numIndex>
 									</numIndex>
 									<numIndex index="15" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
 										<numIndex index="1">visible-md</numIndex>
 									</numIndex>
 								</items>
@@ -171,13 +171,13 @@
 					</mdCol2>
 					<mdCol3 type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col3</label>
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col3</label>
 							<config type="array">
 								<type>select</type>
 								<default>medium-3</default>
 								<items type="array">
 									<numIndex index="0" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
 										<numIndex index="1"></numIndex>
 									</numIndex>
 									<numIndex index="1" type="array">
@@ -201,7 +201,7 @@
 										<numIndex index="1">medium-9</numIndex>
 									</numIndex>
 									<numIndex index="6" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
 										<numIndex index="1">--div--</numIndex>
 									</numIndex>
 									<numIndex index="7" type="array">
@@ -233,15 +233,15 @@
 										<numIndex index="1">medium-12</numIndex>
 									</numIndex>
 									<numIndex index="14" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.special</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.special</numIndex>
 										<numIndex index="1">--div--</numIndex>
 									</numIndex>
 									<numIndex index="15" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
 										<numIndex index="1">hidden-md</numIndex>
 									</numIndex>
 									<numIndex index="16" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
 										<numIndex index="1">visible-md</numIndex>
 									</numIndex>
 								</items>
@@ -250,13 +250,13 @@
 					</mdCol3>
 					<mdCol4 type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col4</label>
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col4</label>
 							<config type="array">
 								<type>select</type>
 								<default>medium-3</default>
 								<items type="array">
 									<numIndex index="0" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
 										<numIndex index="1"></numIndex>
 									</numIndex>
 									<numIndex index="1" type="array">
@@ -280,7 +280,7 @@
 										<numIndex index="1">medium-9</numIndex>
 									</numIndex>
 									<numIndex index="6" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
 										<numIndex index="1">--div--</numIndex>
 									</numIndex>
 									<numIndex index="7" type="array">
@@ -312,15 +312,15 @@
 										<numIndex index="1">medium-12</numIndex>
 									</numIndex>
 									<numIndex index="14" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.special</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.special</numIndex>
 										<numIndex index="1">--div--</numIndex>
 									</numIndex>
 									<numIndex index="15" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
 										<numIndex index="1">hidden-md</numIndex>
 									</numIndex>
 									<numIndex index="16" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
 										<numIndex index="1">visible-md</numIndex>
 									</numIndex>
 								</items>
@@ -333,18 +333,18 @@
 		<smallDevices>
 			<ROOT type="array">
 				<TCEforms>
-					<sheetTitle>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.sheet.smallDevices</sheetTitle>
+					<sheetTitle>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.sheet.smallDevices</sheetTitle>
 				</TCEforms>
 				<type>array</type>
 				<el type="array">
 					<smCol1 type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col1</label>
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col1</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
 										<numIndex index="1"></numIndex>
 									</numIndex>
 									<numIndex index="1" type="array">
@@ -368,7 +368,7 @@
 										<numIndex index="1">medium-9</numIndex>
 									</numIndex>
 									<numIndex index="6" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
 										<numIndex index="1">--div--</numIndex>
 									</numIndex>
 									<numIndex index="7" type="array">
@@ -400,15 +400,15 @@
 										<numIndex index="1">medium-12</numIndex>
 									</numIndex>
 									<numIndex index="14" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreOptions</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreOptions</numIndex>
 										<numIndex index="1">--div--</numIndex>
 									</numIndex>
 									<numIndex index="15" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
 										<numIndex index="1">hidden-sm</numIndex>
 									</numIndex>
 									<numIndex index="16" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
 										<numIndex index="1">visible-sm</numIndex>
 									</numIndex>
 								</items>
@@ -417,12 +417,12 @@
 					</smCol1>
 					<smCol2 type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col2</label>
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col2</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
 										<numIndex index="1"></numIndex>
 									</numIndex>
 									<numIndex index="1" type="array">
@@ -446,7 +446,7 @@
 										<numIndex index="1">small-9</numIndex>
 									</numIndex>
 									<numIndex index="6" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
 										<numIndex index="1">--div--</numIndex>
 									</numIndex>
 									<numIndex index="7" type="array">
@@ -478,15 +478,15 @@
 										<numIndex index="1">small-12</numIndex>
 									</numIndex>
 									<numIndex index="14" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreOptions</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreOptions</numIndex>
 										<numIndex index="1">--div--</numIndex>
 									</numIndex>
 									<numIndex index="15" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
 										<numIndex index="1">hidden-sm</numIndex>
 									</numIndex>
 									<numIndex index="16" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
 										<numIndex index="1">visible-sm</numIndex>
 									</numIndex>
 								</items>
@@ -495,12 +495,12 @@
 					</smCol2>
 					<smCol3 type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col3</label>
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col3</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
 										<numIndex index="1"></numIndex>
 									</numIndex>
 									<numIndex index="1" type="array">
@@ -524,7 +524,7 @@
 										<numIndex index="1">small-9</numIndex>
 									</numIndex>
 									<numIndex index="6" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
 										<numIndex index="1">--div--</numIndex>
 									</numIndex>
 									<numIndex index="7" type="array">
@@ -556,15 +556,15 @@
 										<numIndex index="1">small-12</numIndex>
 									</numIndex>
 									<numIndex index="14" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreOptions</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreOptions</numIndex>
 										<numIndex index="1">--div--</numIndex>
 									</numIndex>
 									<numIndex index="15" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
 										<numIndex index="1">hidden-sm</numIndex>
 									</numIndex>
 									<numIndex index="16" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
 										<numIndex index="1">visible-sm</numIndex>
 									</numIndex>
 								</items>
@@ -573,12 +573,12 @@
 					</smCol3>
 					<smCol4 type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col4</label>
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col4</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
 										<numIndex index="1"></numIndex>
 									</numIndex>
 									<numIndex index="1" type="array">
@@ -602,7 +602,7 @@
 										<numIndex index="1">small-9</numIndex>
 									</numIndex>
 									<numIndex index="6" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
 										<numIndex index="1">--div--</numIndex>
 									</numIndex>
 									<numIndex index="7" type="array">
@@ -634,15 +634,15 @@
 										<numIndex index="1">small-12</numIndex>
 									</numIndex>
 									<numIndex index="14" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreOptions</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreOptions</numIndex>
 										<numIndex index="1">--div--</numIndex>
 									</numIndex>
 									<numIndex index="15" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
 										<numIndex index="1">hidden-sm</numIndex>
 									</numIndex>
 									<numIndex index="16" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
 										<numIndex index="1">visible-sm</numIndex>
 									</numIndex>
 								</items>
@@ -656,18 +656,18 @@
 		<largeDevices>
 			<ROOT type="array">
 				<TCEforms>
-					<sheetTitle>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.sheet.largeDevices</sheetTitle>
+					<sheetTitle>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.sheet.largeDevices</sheetTitle>
 				</TCEforms>
 				<type>array</type>
 				<el type="array">
 					<lgCol1 type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col1</label>
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col1</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
 										<numIndex index="1"></numIndex>
 									</numIndex>
 									<numIndex index="1" type="array">
@@ -691,7 +691,7 @@
 										<numIndex index="1">large-9</numIndex>
 									</numIndex>
 									<numIndex index="6" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
 										<numIndex index="1">--div--</numIndex>
 									</numIndex>
 									<numIndex index="7" type="array">
@@ -723,15 +723,15 @@
 										<numIndex index="1">large-12</numIndex>
 									</numIndex>
 									<numIndex index="14" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreOptions</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreOptions</numIndex>
 										<numIndex index="1">--div--</numIndex>
 									</numIndex>
 									<numIndex index="15" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
 										<numIndex index="1">hidden-lg</numIndex>
 									</numIndex>
 									<numIndex index="16" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
 										<numIndex index="1">visible-lg</numIndex>
 									</numIndex>
 								</items>
@@ -740,12 +740,12 @@
 					</lgCol1>
 					<lgCol2 type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col2</label>
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col2</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
 										<numIndex index="1"></numIndex>
 									</numIndex>
 									<numIndex index="1" type="array">
@@ -769,7 +769,7 @@
 										<numIndex index="1">large-9</numIndex>
 									</numIndex>
 									<numIndex index="6" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
 										<numIndex index="1">--div--</numIndex>
 									</numIndex>
 									<numIndex index="7" type="array">
@@ -801,15 +801,15 @@
 										<numIndex index="1">large-12</numIndex>
 									</numIndex>
 									<numIndex index="14" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreOptions</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreOptions</numIndex>
 										<numIndex index="1">--div--</numIndex>
 									</numIndex>
 									<numIndex index="15" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
 										<numIndex index="1">hidden-lg</numIndex>
 									</numIndex>
 									<numIndex index="16" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
 										<numIndex index="1">visible-lg</numIndex>
 									</numIndex>
 								</items>
@@ -818,12 +818,12 @@
 					</lgCol2>
 					<lgCol3 type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col3</label>
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col3</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
 										<numIndex index="1"></numIndex>
 									</numIndex>
 									<numIndex index="1" type="array">
@@ -847,7 +847,7 @@
 										<numIndex index="1">large-9</numIndex>
 									</numIndex>
 									<numIndex index="6" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
 										<numIndex index="1">--div--</numIndex>
 									</numIndex>
 									<numIndex index="7" type="array">
@@ -879,15 +879,15 @@
 										<numIndex index="1">large-12</numIndex>
 									</numIndex>
 									<numIndex index="14" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreOptions</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreOptions</numIndex>
 										<numIndex index="1">--div--</numIndex>
 									</numIndex>
 									<numIndex index="15" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
 										<numIndex index="1">hidden-lg</numIndex>
 									</numIndex>
 									<numIndex index="16" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
 										<numIndex index="1">visible-lg</numIndex>
 									</numIndex>
 								</items>
@@ -896,12 +896,12 @@
 					</lgCol3>
 					<lgCol4 type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col4</label>
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col4</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.notset</numIndex>
 										<numIndex index="1"></numIndex>
 									</numIndex>
 									<numIndex index="1" type="array">
@@ -925,7 +925,7 @@
 										<numIndex index="1">large-9</numIndex>
 									</numIndex>
 									<numIndex index="6" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreWidth</numIndex>
 										<numIndex index="1">--div--</numIndex>
 									</numIndex>
 									<numIndex index="7" type="array">
@@ -957,15 +957,15 @@
 										<numIndex index="1">large-12</numIndex>
 									</numIndex>
 									<numIndex index="14" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreOptions</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.moreOptions</numIndex>
 										<numIndex index="1">--div--</numIndex>
 									</numIndex>
 									<numIndex index="15" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.hidden</numIndex>
 										<numIndex index="1">hidden-lg</numIndex>
 									</numIndex>
 									<numIndex index="16" type="array">
-										<numIndex index="0">LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
+										<numIndex index="0">LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.visible</numIndex>
 										<numIndex index="1">visible-lg</numIndex>
 									</numIndex>
 								</items>
@@ -978,13 +978,13 @@
 		<customClasses>
 			<ROOT>
 				<TCEforms>
-					<sheetTitle>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.sheet.customClasses</sheetTitle>
+					<sheetTitle>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.sheet.customClasses</sheetTitle>
 				</TCEforms>
 				<type>array</type>
 				<el type="array">
 					<col41class type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col1</label>
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col1</label>
 							<config type="array">
 								<type>input</type>
 								<eval>trim</eval>
@@ -993,7 +993,7 @@
 					</col41class>
 					<col42class type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col2</label>
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col2</label>
 							<config type="array">
 								<type>input</type>
 								<eval>trim</eval>
@@ -1002,7 +1002,7 @@
 					</col42class>
 					<col43class type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col3</label>
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col3</label>
 							<config type="array">
 								<type>input</type>
 								<eval>trim</eval>
@@ -1011,7 +1011,7 @@
 					</col43class>
 					<col44class type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col4</label>
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.col4</label>
 							<config type="array">
 								<type>input</type>
 								<eval>trim</eval>
@@ -1024,13 +1024,13 @@
 		<misc>
 			<ROOT>
 				<TCEforms>
-					<sheetTitle>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.sheet.misc</sheetTitle>
+					<sheetTitle>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.sheet.misc</sheetTitle>
 				</TCEforms>
 				<type>array</type>
 				<el type="array">
 					<collapse type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.collapse</label>
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.collapse</label>
 							<config type="array">
 								<type>check</type>
 							</config>
@@ -1038,7 +1038,7 @@
 					</collapse>
 					<collapseOnSmall type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.collapseOnSmall</label>
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.collapseOnSmall</label>
 							<config type="array">
 								<type>check</type>
 							</config>
@@ -1046,7 +1046,7 @@
 					</collapseOnSmall>
 					<equalizeColumns type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:exc_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.equalizeColumns</label>
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.equalizeColumns</label>
 							<config type="array">
 								<type>check</type>
 							</config>

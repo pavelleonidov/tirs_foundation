@@ -1,4 +1,4 @@
-exc_foundation.templates.gridelements {
+tirs_foundation.templates.gridelements {
     templateRootPath =
     layoutRootPath =
     partialRootPath =

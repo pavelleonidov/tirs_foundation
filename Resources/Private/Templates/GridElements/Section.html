@@ -1,8 +1,16 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
 <f:layout name="Section" />
 <f:section name="main">
-	<div class="row columns">
-		{data.tx_gridelements_view_column_101 -> f:format.raw()}
-	</div>
+	<f:if condition="{data.layout} == 'expanded'">
+		<f:then>
+			{data.tx_gridelements_view_column_101 -> f:format.raw()}
+		</f:then>
+		<f:else>
+			<div class="row columns">
+				{data.tx_gridelements_view_column_101 -> f:format.raw()}
+			</div>
+		</f:else>
+	</f:if>
+
 </f:section>
 </html>

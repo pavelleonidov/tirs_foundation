@@ -17,6 +17,11 @@
 	  "homepage": "http://www.pavel-leonidov.de"
 	}
   ],
+  "autoload": {
+	"psr-4": {
+	  "TIRS\\TirsFoundation\\": "Classes"
+	}
+  },
   "replace": {
 	"tirs_foundation": "self.version"
   },

@@ -29,8 +29,42 @@ use TYPO3\CMS\Extbase\Domain\Model\AbstractFileFolder;
  *  This copyright notice MUST APPEAR in all copies of the script!
  ******************************************************************/
 
-class LazyImageViewHelper extends \TYPO3\CMS\Fluid\ViewHelpers\ImageViewHelper
+class LazyImageViewHelper extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractTagBasedViewHelper
 {
+
+	/**
+	 * @var string
+	 */
+	protected $tagName = 'img';
+
+	/**
+	 * @var \TYPO3\CMS\Extbase\Service\ImageService
+	 */
+	protected $imageService;
+
+	/**
+	 * @param \TYPO3\CMS\Extbase\Service\ImageService $imageService
+	 */
+	public function injectImageService(\TYPO3\CMS\Extbase\Service\ImageService $imageService)
+	{
+		$this->imageService = $imageService;
+	}
+
+	/**
+	 * Initialize arguments.
+	 *
+	 * @return void
+	 */
+	public function initializeArguments()
+	{
+		parent::initializeArguments();
+		$this->registerUniversalTagAttributes();
+		$this->registerTagAttribute('alt', 'string', 'Specifies an alternate text for an image', false);
+		$this->registerTagAttribute('ismap', 'string', 'Specifies an image as a server-side image-map. Rarely used. Look at usemap instead', false);
+		$this->registerTagAttribute('longdesc', 'string', 'Specifies the URL to a document that contains a long description of an image', false);
+		$this->registerTagAttribute('usemap', 'string', 'Specifies an image as a client-side image-map', false);
+	}
+
 
 	/**
 	 * Resizes a given image (if required) and renders the respective img tag

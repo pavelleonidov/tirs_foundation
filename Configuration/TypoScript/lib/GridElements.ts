@@ -353,6 +353,11 @@ lib.foundationGrids {
         cObject =< lib.fluidGrid
         cObject {
             templateName = Section
+            variables {
+                expanded = TEXT
+                expanded.data = field:flexform_expanded
+            }
+
         }
     }
 }

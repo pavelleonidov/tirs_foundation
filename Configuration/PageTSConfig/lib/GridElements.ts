@@ -174,6 +174,7 @@ tx_gridelements {
                     }
                 }
             }
+            flexformDS = FILE:EXT:tirs_foundation/Configuration/FlexForm/flexform_section.xml
         }
     }
 }

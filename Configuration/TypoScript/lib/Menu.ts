@@ -12,3 +12,9 @@ page.10 {
         }
     }
 }
+
+lib.submenu {
+    1 {
+        wrap = <ul class="menu vertical">|</ul>
+    }
+}

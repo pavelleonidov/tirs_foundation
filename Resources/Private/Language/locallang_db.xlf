@@ -282,6 +282,9 @@
 			<trans-unit id="grid.accordion.expandFirst" xml:space="preserve">
 				<source>Expand first item</source>
 			</trans-unit>
+			<trans-unit id="grid.section.expanded" xml:space="preserve">
+				<source>Expanded row</source>
+			</trans-unit>
 			<trans-unit id="accordion.title" xml:space="preserve">
 				<source>Accordion from content</source>
 			</trans-unit>

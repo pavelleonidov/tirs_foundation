@@ -10,7 +10,16 @@
 					<sheetTitle>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.sheet.layout</sheetTitle>
 				</TCEforms>
 				<type>array</type>
-
+				<el type="array">
+					<expanded>
+						<TCEforms>
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.section.expanded</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</expanded>
+				</el>
 			</ROOT>
 		</sDEF>
 	</sheets>

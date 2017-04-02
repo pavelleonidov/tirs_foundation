@@ -2,13 +2,13 @@
 <f:layout name="Grid" />
 
 <f:section name="main">
-    <div class="{xsCol1} {smCol1} {mdCol1} {lgCol1} {col31class} column first"{f:if(condition: '{equalizeColumns}', then: ' data-equalizer data-equalize-on="medium"')}>
+    <div class="{xsCol1} {smCol1} {mdCol1} {lgCol1} {col31class} column first"{f:if(condition: '{equalizeColumns}', then: ' data-equalizer-watch')}>
         {data.tx_gridelements_view_column_101 -> f:format.raw()}
     </div>
-    <div class="{xsCol2} {smCol2} {mdCol2} {lgCol2} {col32class} column"{f:if(condition: '{equalizeColumns}', then: ' data-equalizer data-equalize-on="medium"')}>
+    <div class="{xsCol2} {smCol2} {mdCol2} {lgCol2} {col32class} column"{f:if(condition: '{equalizeColumns}', then: ' data-equalizer-watch')}>
         {data.tx_gridelements_view_column_102 -> f:format.raw()}
     </div>
-    <div class="{xsCol3} {smCol3} {mdCol3} {lgCol3} {col33class} column last"{f:if(condition: '{equalizeColumns}', then: ' data-equalizer data-equalize-on="medium"')}>
+    <div class="{xsCol3} {smCol3} {mdCol3} {lgCol3} {col33class} column last"{f:if(condition: '{equalizeColumns}', then: ' data-equalizer-watch')}>
         {data.tx_gridelements_view_column_103 -> f:format.raw()}
     </div>
 </f:section>

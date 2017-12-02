@@ -123,7 +123,7 @@ class LazyImageViewHelper extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractTagBa
 
 
 				$processedImage = $this->imageService->applyProcessingInstructions($image, $processingInstructions);
-				if($key == 'large') {
+				if($key == 'default') {
 					$this->tag->addAttribute('width', $processedImage->getProperty('width'));
 					$this->tag->addAttribute('height', $processedImage->getProperty('height'));
 				}

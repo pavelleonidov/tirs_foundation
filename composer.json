@@ -2,12 +2,12 @@
   "name": "tirs/tirs-foundation",
   "type": "typo3-cms-extension",
   "description": "Base distribution extension based on Foundation 6.4.",
-  "homepage": "http://www.pavel-leonidov.de",
   "license": ["GPL-2.0+"],
-  "version": "7.0.1",
+  "version": "8.0.0",
   "require": {
-	"typo3/cms-core": ">=7.6",
+	"typo3/cms-core": ">=8.7",
 	"typo3/cms-fluid-styled-content": "*",
+	"gridelementsteam/gridelements": ">=8.0.0,<8.2.99",
 	"tirs/tirs-configuration": "dev-master"
   },
   "authors": [

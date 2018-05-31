@@ -1,0 +1,40 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+
+<f:section name="Main">
+<ul class="tabs grid-x" id="tabs-{data.uid}" data-active-collapse="true" {f:if(condition: data.flexform_accordionOnMobile, then: 'data-responsive-accordion-tabs="small-accordion medium-tabs"', else: 'data-tabs')}>
+    <f:for each="{data.tx_gridelements_view_raw_columns.101}" as="tab" iteration="it">
+        <f:if condition="{it.index} == 0">
+            <f:then>
+                <li class="tabs-title cell is-active {f:if(condition: data.flexform_accordionOnMobile, then: 'small-12 medium-auto', else: 'auto')}">
+                    <a href="#panel-{tab.uid}" aria-selected="true">{tab.header}</a>
+                </li>
+            </f:then>
+            <f:else>
+                <li class="tabs-title cell {f:if(condition: data.flexform_accordionOnMobile, then: 'small-12 medium-auto', else: 'auto')}">
+                    <a href="#panel-{tab.uid}">{tab.header}</a>
+                </li>
+            </f:else>
+        </f:if>
+    </f:for>
+</ul>
+
+<div class="tabs-content" data-tabs-content="tabs-{data.uid}">
+    <f:for each="{data.tx_gridelements_view_raw_columns.101}" as="tab" iteration="it">
+        <f:if condition="{it.index} == 0">
+            <f:then>
+                <div class="tabs-panel is-active" id="panel-{tab.uid}">
+                    {tab.rawData -> f:format.raw()}
+                </div>
+            </f:then>
+            <f:else>
+                <div class="tabs-panel" id="panel-{tab.uid}">
+                    {tab.rawData -> f:format.raw()}
+                </div>
+            </f:else>
+        </f:if>
+    </f:for>
+</div>
+</f:section>
+</html>
+

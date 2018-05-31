@@ -1,0 +1,1 @@
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:tirs_foundation/Configuration/TSConfig/Libraries/" extensions="ts">

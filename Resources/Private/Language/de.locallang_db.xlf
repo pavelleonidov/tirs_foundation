@@ -3,27 +3,42 @@
 	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2015-02-07T00:02:05Z" product-name="foundation_grids">
 		<header/>
 		<body>
+			<trans-unit id="section.title" xml:space="preserve">
+				<source>1 column section</source>
+				<target>Einspaltiger Raster</target>
+			</trans-unit>
+			<trans-unit id="section.description" xml:space="preserve">
+				<source>Section container</source>
+				<target>Einspaltiger Container über Elemente</target>
+			</trans-unit>
 			<trans-unit id="2cols.title" xml:space="preserve" approved="yes">
-				<source>2 columns</source><target state="translated">2 Spalten</target>
+				<source>2 columns</source>
+				<target state="translated">2 Spalten</target>
 			</trans-unit>
 			<trans-unit id="3cols.title" xml:space="preserve" approved="yes">
-				<source>3 columns</source><target state="translated">3 Spalten</target>
+				<source>3 columns</source>
+				<target state="translated">3 Spalten</target>
 			</trans-unit>
 			<trans-unit id="4cols.title" xml:space="preserve" approved="yes">
-				<source>4 columns</source><target state="translated">4 Spalten</target>
+				<source>4 columns</source>
+				<target state="translated">4 Spalten</target>
 			</trans-unit>
 
 			<trans-unit id="celayout.leftColumn" xml:space="preserve" approved="yes">
-				<source>Left column</source><target state="translated">Spalte links</target>
+				<source>Left column</source>
+				<target state="translated">Spalte links</target>
 			</trans-unit>
 			<trans-unit id="celayout.rightColumn" xml:space="preserve" approved="yes">
-				<source>Right column</source><target state="translated">Spalte rechts</target>
+				<source>Right column</source>
+				<target state="translated">Spalte rechts</target>
 			</trans-unit>
 			<trans-unit id="celayout.centerColumn" xml:space="preserve" approved="yes">
-				<source>Center column</source><target state="translated">Mittlere Spalte</target>
+				<source>Center column</source>
+				<target state="translated">Mittlere Spalte</target>
 			</trans-unit>
 			<trans-unit id="celayout.column2" xml:space="preserve" approved="yes">
-				<source>2nd column</source><target state="translated">2. Spalte</target>
+				<source>2nd column</source>
+				<target state="translated">2. Spalte</target>
 			</trans-unit>
 			<trans-unit id="celayout.column3" xml:space="preserve" approved="yes">
 				<source>3rd column</source><target state="translated">3. Spalte</target>
@@ -99,7 +114,213 @@
 				<source>Accordion elements</source>
 				<target state="translated">Accordion-Elemente</target>
 			</trans-unit>
+            <trans-unit id="tabs.title" xml:space="preserve" approved="yes">
+                <source>Tabs from content</source>
+                <target state="translated">Tabs aus dem Inhalt</target>
+            </trans-unit>
+            <trans-unit id="celayout.tabsElements" xml:space="preserve" approved="yes">
+                <source>Tabs elements</source>
+                <target state="translated">Tabs-Elemente</target>
+            </trans-unit>
 
+			<!-- Accordion -->
+			<trans-unit id="grid.accordion.expandFirst" xml:space="preserve">
+				<source>Expand first item</source>
+				<target>Erstes Element ausklappen</target>
+			</trans-unit>
+
+			<!-- Section -->
+			<trans-unit id="grid.section.widthOfSection" xml:space="preserve">
+				<source>Content width of this section</source>
+				<target>Breite dieses Containers</target>
+			</trans-unit>
+			<trans-unit id="grid.section.widthOfSection.grid" xml:space="preserve">
+				<source>Normal grid width</source>
+				<target>Normale Rasterbreite</target>
+			</trans-unit>
+			<trans-unit id="grid.section.widthOfSection.full" xml:space="preserve">
+				<source>Full width with no space to screen edge</source>
+				<target>Volle Breite ohne Abstand zu den Bildschirmkanten</target>
+			</trans-unit>
+			<trans-unit id="grid.section.widthOfSection.fluid" xml:space="preserve">
+				<source>Full width with normal container space to screen edge</source>
+				<target>Volle Breite mit normalem Abstand zu den Bildschirmkanten</target>
+			</trans-unit>
+
+			<!-- Slider -->
+			<trans-unit id="grid.slider.items" xml:space="preserve">
+				<source>Number of items visible at the same time</source>
+				<target>Anzahl Elemente, die zur gleichen Zeit sichtbar sind</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.slideBy" xml:space="preserve">
+				<source>Number of items to scroll  at the same time</source>
+				<target>Anzahl Elemente, die zur gleichen Zeit wechseln sollen</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.itemsMedium" xml:space="preserve">
+				<source>Number of items visible at the same time on screen size >= medium (Set to 0 if same number as above)</source>
+				<target>Anzahl Elemente, die zur gleichen Zeit bei einer Bildschirmbreite >= medium sichtbar sein sollen (auf 0 setzen falls gleicher Wert wie oben)</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.slideByMedium" xml:space="preserve">
+				<source>Number of items to scroll at the same time on screen size >= medium (Not set if number of items is 0)</source>
+				<target>Anzahl Elemente, die zur gleichen Zeit bei Breite >= medium wechseln sollen (nicht gesetzt falls Anzahl an Elementen 0 entspricht)</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.smartSpeed" xml:space="preserve">
+				<source>Slide animation speed in milliseconds</source>
+				<target>Slide-Animationsgeschwindigkeit in Millisekunden</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.loop" xml:space="preserve">
+				<source>Enable infinity loop</source>
+				<target>Wiederholungsschleife aktivieren</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.center" xml:space="preserve">
+				<source>Enable center item</source>
+				<target>Zentrierung der Elemente aktivieren</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.mouseDrag" xml:space="preserve">
+				<source>Enable mouse drag</source>
+				<target>Maus-Gesten aktivieren</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.touchDrag" xml:space="preserve">
+				<source>Enable touch drag</source>
+				<target>Touch-Gesten aktivieren</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.pullDrag" xml:space="preserve">
+				<source>Stage pull to edge.</source>
+				<target>Bühne in die Kanten ziehen.</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.freeDrag" xml:space="preserve">
+				<source>Item pull to edge.</source>
+				<target>Slide-Element in die Kanten ziehen</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.startPosition" xml:space="preserve">
+				<source>Number of the initial slide</source>
+				<tagert>Initiale Anzahl an Slides</tagert>
+			</trans-unit>
+			<trans-unit id="grid.slider.nav" xml:space="preserve">
+				<source>Show next/prev buttons</source>
+				<target>Vor-/Zurück-Button zeigen</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.rewind" xml:space="preserve">
+				<source>Go backwards when the boundary has reached</source>
+				<target>Zurücksetzen falls die Grenze erreicht ist</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.dots" xml:space="preserve">
+				<source>Show dots navigation</source>
+				<target>Punktnavigation zeigen</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.dotsEach" xml:space="preserve">
+				<source>Show one dot for a number of items (Set to 0 for automatic calculation)</source>
+				<target>Einen Punkt für gewählte Anzahl an Elementen zeigen (Auf 0 setzen für automatische Berechnung)</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.dotsEachMedium" xml:space="preserve">
+				<source>Show one dot for a number of items on screen size >= medium (Not set if number of items is 0)</source>
+				<target>Einen Punkt für gewählte Anzahl an Elementen zeigen für Bildschirmbreite >= medium (Nicht gesetzt falls Elementanzahl = 0 ist)</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.autoplay" xml:space="preserve">
+				<source>Enable autoplay</source>
+				<target>Autoplay aktivieren</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.autoplayTimeout" xml:space="preserve">
+				<source>Set autoplay interval in milliseconds</source>
+				<target>Autoplay-Intervall in Millisekunden</target>
+			</trans-unit>
+			<trans-unit id="grid.slider.autoplayHoverPause" xml:space="preserve">
+				<source>Pause autoplay on mouse hover</source>
+				<target>Autoplay pausieren bei Mausübergang</target>
+			</trans-unit>
+
+			<!-- Sheets -->
+			<trans-unit id="grid.sheet.general" xml:space="preserve">
+				<source>General settings</source>
+				<target>Allgemeine Einstellungen</target>
+			</trans-unit>
+			<trans-unit id="grid.sheet.animation" xml:space="preserve">
+				<source>Animation settings</source>
+				<target>Animationseinstellungen</target>
+			</trans-unit>
+			<trans-unit id="grid.sheet.slides" xml:space="preserve">
+                <source>Slides settings</source>
+                <target>Slide-Einstellungen</target>
+            </trans-unit>
+			<trans-unit id="grid.sheet.controls" xml:space="preserve">
+                <source>Control settings</source>
+                <target>Kontrolleinstellungen</target>
+            </trans-unit>
+			<trans-unit id="grid.sheet.fullwidth" xml:space="preserve">
+                <source>Fullwidth settings</source>
+                <target>Vollbreiten-Einstellungen</target>
+            </trans-unit>
+			<trans-unit id="grid.sheet.fullwidth.description" xml:space="preserve">
+                <source>Used only if parent secton is set to "Full width with no space to screen edge"</source>
+                <target>Wird nur bei der Einstellung "Volle Breite ohne Abstand zu den Bildschirmkanten" verwendet</target>
+            </trans-unit>
+
+			<trans-unit id="2cols.title" xml:space="preserve">
+				<source>2 columns</source>
+				<target>2 Spalten</target>
+			</trans-unit>
+			<trans-unit id="2cols.description" xml:space="preserve">
+				<source>Inserts a 2-columns grid for content. The width of each column may be set for different screen sizes.</source>
+				<target>Fügt einen 2-Spalten-Raster für Inhaltselemente ein. Die Breite jeder Spalte kann für verschiedene Bildschirmbreiten angepasst werden.</target>
+			</trans-unit>
+			<trans-unit id="3cols.title" xml:space="preserve">
+				<source>3 columns</source>
+				<target>3 Spalten</target>
+			</trans-unit>
+			<trans-unit id="3cols.description" xml:space="preserve">
+				<source>Inserts a 3-columns grid for content.</source>
+				<target>Fügt einen 3-Spalten-Raster für Inhaltselemente ein. Die Breite jeder Spalte kann für verschiedene Bildschirmbreiten angepasst werden.</target>
+			</trans-unit>
+			<trans-unit id="4cols.title" xml:space="preserve">
+				<source>4 columns</source>
+				<target>4 Spalten</target>
+			</trans-unit>
+			<trans-unit id="4cols.description" xml:space="preserve">
+				<source>Inserts a 4-columns grid for content.</source>
+				<target>Fügt einen 4-Spalten-Raster für Inhaltselemente ein. Die Breite jeder Spalte kann für verschiedene Bildschirmbreiten angepasst werden.</target>
+			</trans-unit>
+			<trans-unit id="5cols.title" xml:space="preserve">
+				<source>5 columns</source>
+			</trans-unit>
+			<trans-unit id="5cols.description" xml:space="preserve">
+				<source>Inserts a 5-columns grid for content.</source>
+			</trans-unit>
+			<trans-unit id="slider.title" xml:space="preserve">
+				<source>Content slider</source>
+			</trans-unit>
+			<trans-unit id="slider.description" xml:space="preserve">
+				<source>Each content element within the grid represents a slider element.</source>
+			</trans-unit>
+
+			<trans-unit id="accordion.description" xml:space="preserve">
+				<source>Each content element within the grid represents an accordion element. The title fields are used as accordion bar titles.</source>
+				<target>Jedes Inhaltselement innerhalb des Rasters repräsentiert ein Accordion-Element. Die Titelfelder der Elemente werden als Navigationstitel verwendet.</target>
+			</trans-unit>
+			<trans-unit id="tabs.title" xml:space="preserve">
+                <source>Tabs from content</source>
+                <target>Tabs aus dem Inhalt</target>
+            </trans-unit>
+            <trans-unit id="tabs.description" xml:space="preserve">
+                <source>Each content element within the grid represents an tab element. The title fields are used as tab title.</source>
+				<target>Jedes Inhaltselement innerhalb des Rasters repräsentiert ein Tab-Element. Die Titelfelder der Elemente werden als Navigationstitel verwendet.</target>
+            </trans-unit>
+			<trans-unit id="slider.title" xml:space="preserve">
+				<source>Content slider</source>
+				<target>Content-Slider</target>
+			</trans-unit>
+			<trans-unit id="slider.description" xml:space="preserve">
+				<source>Each content element within the grid represents a slider element.</source>
+				<target>Jedes Inhaltselement innerhalb des Rasters repräsentiert ein Slide-Element.</target>
+			</trans-unit>
+			<trans-unit id="grid.label.equalizeColumns" xml:space="preserve">
+				<source>Equalize columns</source>
+				<target>Einheitliche Größe für alle Elemente</target>
+			</trans-unit>
+
+			<trans-unit id="grid.slider.autoHeight" xml:space="preserve">
+				<source>Set slider height based on current slide and not based on all slides</source>
+				<target>Slider-Höhe basierend auf aktuellem Slide</target>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

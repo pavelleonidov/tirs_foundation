@@ -4,7 +4,7 @@ namespace TIRS\TirsFoundation\ViewHelpers;
 /*******************************************************************
  *  Copyright notice
  *
- *  (c) 2016 Pavel Leonidov <pavel.leonidov@exconcept.com>, EXCONCEPT GmbH
+ *  (c) 2017 - 2018 Pavel Leonidov <info@pavel-leonidov.de>
  *
  *  All rights reserved
  *
@@ -39,7 +39,7 @@ use TYPO3\CMS\Extbase\Domain\Model\AbstractFileFolder;
  * = Examples =
  *
  * <code title="Background image Object">
- * <exc:bgImage image="{imageObject}" interchangeSettings="{small: {width: 300, height: 200}, medium: {width: 900, height: 560}, default: {width: 1200, height: 960}} />
+ * <tirs:bgImage image="{imageObject}" interchangeSettings="{small: {width: 300, height: 200}, medium: {width: 900, height: 560}, default: {width: 1200, height: 960}} />
  * </code>
  * <output>
  * <div class="background-image" data-lazy="[fileadmin/_processed_/323223424.png, small], [fileadmin/_processed_/323121223424.png, medium], [fileadmin/_processed_/322322124.png, default]" style="background-image: url('/clear.gif'); height: 960px;" />
@@ -96,6 +96,9 @@ class LazyBgImageViewHelper extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractTag
 		$this->registerArgument('interchangeSettings', 'array', 'Breakpoint settings for given image', false, NULL);
 		$this->registerArgument('offset', 'array', 'Offset to set a vertical background position', false, 0);
 		$this->registerArgument('flexDimensions', 'bool', 'when set, width and height attributes will not be inserted', false, 0);
+        $this->registerArgument('padding', 'bool', 'when set, the calculated ratio between height and width will be added as padding-top', false, 0);
+        $this->registerArgument('alternativeTag', 'string', 'Alternative tag to render', false);
+
 
 	}
 
@@ -113,6 +116,10 @@ class LazyBgImageViewHelper extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractTag
 
 		try {
 
+			if($this->arguments['alternativeTag']) {
+				$this->tag->setTagname($this->arguments['alternativeTag']);
+			}
+
 			$image = $this->imageService->getImage($this->arguments['src'], $this->arguments['image'], $this->arguments['treatIdAsReference']);
 			$cropString = $this->arguments['crop'];
 			if ($cropString === null && $image->hasProperty('crop') && $image->getProperty('crop')) {
@@ -127,6 +134,7 @@ class LazyBgImageViewHelper extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractTag
 
 			$height = 0;
 			$width = 0;
+			$paddingPercentage = 0;
 			foreach ($interchangeSettings as $key => $settings) {
 				$processingInstructions = [
 					'width' => (string)$settings['width'],
@@ -139,11 +147,14 @@ class LazyBgImageViewHelper extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractTag
 
 				];
 
-
 				$processedImage = $this->imageService->applyProcessingInstructions($image, $processingInstructions);
 				if($key == 'default') {
 					$height = $processedImage->getProperty('height');
 					$width = $processedImage->getProperty('width');
+					if($this->arguments['padding']) {
+                        $paddingPercentage = ($height / $width) * 100;
+                    }
+
 				}
 				$imageUri = $this->imageService->getImageUri($processedImage);
 
@@ -157,6 +168,7 @@ class LazyBgImageViewHelper extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractTag
 				$interchangeData[] = '[' . $imageUri . ', ' . $key . ']';
 			}
 
+
 			$offset = $this->arguments['offset'];
 			$flexDimensions = $this->arguments['flexDimensions'];
 
@@ -165,8 +177,8 @@ class LazyBgImageViewHelper extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractTag
 			$this->tag->addAttribute('data-src', implode(',', $interchangeData));
 
 			$dimensions = !$flexDimensions ? ' height: ' . $height . 'px;' : '';
-
-			$this->tag->addAttribute('style', "background-image: url('/clear.gif');" . $dimensions . $offset);
+            $padding = $paddingPercentage != 0 ? ' padding-top: ' . $paddingPercentage . '%;' : '';
+			$this->tag->addAttribute('style', "background-image: url('/clear.gif');" . $dimensions . $offset . $padding);
 			$this->tag->setContent($this->renderChildren());
 			$this->tag->forceClosingTag(TRUE);
 

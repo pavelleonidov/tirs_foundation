@@ -1,0 +1,25 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+
+<f:layout name="DefaultLayout" />
+
+<f:section name="main">
+    <main>
+        <div class="grid-x grid-padding-x">
+            <div class="cell">
+                {visual -> f:format.raw()}
+            </div>
+        </div>
+        <div class="grid-x grid-padding-x">
+            <div class="medium-3 cell">
+                {sidebarLeft -> f:format.raw()}
+            </div>
+            <div class="medium-6 cell">
+                {content -> f:format.raw()}
+            </div>
+            <div class="medium-3 cell">
+                {sidebarRight -> f:format.raw()}
+            </div>
+        </div>
+    </main>
+</f:section>
+</html>

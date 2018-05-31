@@ -1,12 +1,62 @@
-<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:tirs="http://typo3.org/ns/TIRS/TirsConfiguration/ViewHelpers" data-namespace-typo3-fluid="true">
+
 <f:layout name="Grid" />
 
-<f:section name="main">
-    <div class="{xsCol1} {smCol1} {mdCol1} {lgCol1} column {col21class} first"{f:if(condition: '{equalizeColumns}', then: ' data-equalizer data-equalize-on="medium"')}>
-        {data.tx_gridelements_view_column_101 -> f:format.raw()}
-    </div>
-    <div class="{xsCol2} {smCol2} {mdCol2} {lgCol2} {col22class} column last"{f:if(condition: '{equalizeColumns}', then: ' data-equalizer data-equalize-on="medium"')}>
-        {data.tx_gridelements_view_column_102 -> f:format.raw()}
-    </div>
+<f:section name="Main">
+    <f:if condition="{data.parentgrid_flexform_widthOfSection} == 'full'">
+        <f:then>
+            <div class="{f:if(condition: indentContent, then: 'medium-6', else: '{xsCol1} {smCol1} {mdCol1} {lgCol1} {col21class}')} cell full-width-cell items-{f:count(subject: data.tx_gridelements_view_raw_columns.101)} first{f:if(condition:stretchColumns, then:' align-self-stretch')}"{f:if(condition: '{equalizeColumns}', then: ' data-equalizer-watch')}>
+                <f:for each="{data.tx_gridelements_view_raw_columns.101}" as="column_element" iteration="i">
+                    <div class="two-col-cell left{f:if(condition: '{column_element.CType} == "image"', then: ' image')}{f:if(condition: backgroundCell, then: ' frame-layout-{data.layout}')}{f:if(condition: i.isLast, then: ' last')}">
+                        <tirs:inArray needle="{column_element.uid}" haystack="{indentContent}">
+                            <f:then>
+                                <div class="grid-indent-container">
+                                    <div class="grid-x grid-padding-x">
+                                        <div class="cell">
+                                            {column_element.rawData -> f:format.raw()}
+                                        </div>
+                                    </div>
+                                </div>
+                            </f:then>
+                            <f:else>
+                                {column_element.rawData -> f:format.raw()}
+                            </f:else>
+                        </tirs:inArray>
+                    </div>
+                </f:for>
+            </div>
+
+            <div class="{f:if(condition: indentContent, then: 'medium-6', else: ' {xsCol2} {smCol2} {mdCol2} {lgCol2} {col22class}')} cell full-width-cell items-{f:count(subject: data.tx_gridelements_view_raw_columns.102)} last{f:if(condition:stretchColumns, then:' align-self-stretch')}"{f:if(condition: '{equalizeColumns}', then: ' data-equalizer-watch')}>
+                <f:for each="{data.tx_gridelements_view_raw_columns.102}" as="column_element" iteration="i">
+                    <div class="two-col-cell right{f:if(condition: '{column_element.CType} == "image"', then: ' image')}{f:if(condition: backgroundCell, then: ' frame-layout-{data.layout}')}{f:if(condition: i.isLast, then: ' last')}">
+                        <tirs:inArray needle="{column_element.uid}" haystack="{indentContent}">
+                            <f:then>
+                                <div class="grid-indent-container">
+                                    <div class="grid-x grid-padding-x">
+                                        <div class="cell">
+                                            {column_element.rawData -> f:format.raw()}
+                                        </div>
+                                    </div>
+                                </div>
+                            </f:then>
+                            <f:else>
+                                {column_element.rawData -> f:format.raw()}
+                            </f:else>
+                        </tirs:inArray>
+                    </div>
+                </f:for>
+            </div>
+        </f:then>
+        <f:else>
+            <div class="{xsCol1} {smCol1} {mdCol1} {lgCol1} {col21class} cell first {f:if(condition: '{equalizeColumns}', then: ' flex-container')} {f:if(condition: '{stretchColumns}', then: 'align-self-stretch')}">
+                {data.tx_gridelements_view_column_101 -> f:format.raw()}
+            </div>
+            <div class="{xsCol2} {smCol2} {mdCol2} {lgCol2} {col22class} cell last {f:if(condition: '{equalizeColumns}', then: ' flex-container')} {f:if(condition: '{stretchColumns}', then: 'align-self-stretch')}">
+                {data.tx_gridelements_view_column_102 -> f:format.raw()}
+            </div>
+        </f:else>
+    </f:if>
+
 </f:section>
 </html>

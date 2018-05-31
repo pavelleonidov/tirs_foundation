@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="612px"
+	 height="612px" viewBox="0 90 612 612" enable-background="new 0 90 612 612" xml:space="preserve">
+<g id="Background">
+	<path fill="#FFFFFF" d="M38.25,128.25h535.5v535.5H38.25V128.25z"/>
+	<path fill="#999999" d="M38.25,128.25v535.5h535.5v-535.5H38.25z M76.5,166.5h459v459h-459V166.5z"/>
+</g>
+<g id="Tabs" display="none">
+	<path display="inline" fill="#666666" d="M114.75,204.75H229.5V319.5H114.75V204.75z"/>
+	<path display="inline" fill="#B9B9B9" d="M248.625,204.75h114.749v95.625H248.625V204.75z"/>
+	<path display="inline" fill="#B9B9B9" d="M382.5,204.75h114.75v95.625H382.5V204.75z"/>
+	<path display="inline" fill="#666666" d="M114.75,319.5h382.5v267.75h-382.5V319.5z"/>
+	<path display="inline" fill="#FFFFFF" d="M153,357.75h306V396H153V357.75z M153,434.25h306v38.25H153V434.25z M153,510.75h306V549
+		H153V510.75z"/>
+</g>
+<g id="Accordion" display="none">
+	<path display="inline" fill="#666666" d="M114.75,204.75h382.5V243h-382.5V204.75z"/>
+	<path display="inline" fill="#666666" d="M114.75,281.25h382.5V512h-382.5V281.25z"/>
+	<path display="inline" fill="#666666" d="M114.75,549h382.5v38.25h-382.5V549z"/>
+	<path display="inline" fill="#FFFFFF" d="M153,319.5h306v153H153V319.5z"/>
+</g>
+<g id="Slider" display="none">
+	<path display="inline" fill="#B9B9B9" d="M114.75,202h382.5v306h-382.5V202z"/>
+	<path display="inline" fill="#EFEFEF" d="M153,240.25h306v229.5H153V240.25z"/>
+	<path display="inline" fill="#5599FF" d="M277.313,326.351l-43.031,57.375L191.25,441.1h229.538l-38.25-38.25l-38.212-38.249
+		l-21.879,21.879l-2.027-2.716l-43.031-57.375L277.313,326.351z"/>
+	<circle display="inline" fill="#E8A33D" cx="355.725" cy="297.663" r="28.688"/>
+	<path display="inline" fill="#666666" d="M277.313,546.25h57.375v38.25h-57.375V546.25z"/>
+	<path display="inline" fill="#CDCDCD" d="M200.813,546.25h57.375v38.25h-57.375V546.25z"/>
+	<path display="inline" fill="#CDCDCD" d="M353.813,546.25h57.375v38.25h-57.375V546.25z"/>
+	<g display="inline">
+		<g id="chevron-right">
+			<polygon fill="#666666" points="475.709,314.459 466.25,323.918 497.33,355 466.25,386.081 475.709,395.541 516.25,355 			"/>
+		</g>
+	</g>
+	<g display="inline">
+		<g id="chevron-right_1_">
+			<polygon fill="#666666" points="135.916,395.541 145.375,386.082 114.295,355 145.375,323.919 135.916,314.459 95.375,355 			"/>
+		</g>
+	</g>
+</g>
+<g id="col1" display="none">
+	<path display="inline" fill="#666666" d="M114.75,204.75h382.5v382.5h-382.5V204.75z"/>
+</g>
+<g id="col2" display="none">
+	<path display="inline" fill="#666666" d="M114.75,204.75h172.125v382.5H114.75V204.75z"/>
+	<path display="inline" fill="#666666" d="M325.125,204.75H497.25v382.5H325.125V204.75z"/>
+</g>
+<g id="col3" display="none">
+	<path display="inline" fill="#666666" d="M113.182,204.75h102v382.5h-102V204.75z"/>
+	<path display="inline" fill="#666666" d="M395.25,204.75h102v382.5h-102V204.75z"/>
+	<path display="inline" fill="#666666" d="M255,204.75h102v382.5H255V204.75z"/>
+</g>
+<g id="col4" display="none">
+	<path display="inline" fill="#666666" d="M114.75,204.75h88.125v382.5H114.75V204.75z"/>
+	<path display="inline" fill="#666666" d="M212.875,204.75H301v382.5h-88.125V204.75z"/>
+	<path display="inline" fill="#666666" d="M311,204.75h88.125v382.5H311V204.75z"/>
+	<path display="inline" fill="#666666" d="M409.125,204.75h88.125v382.5h-88.125V204.75z"/>
+</g>
+<g id="col5">
+	<path fill="#666666" d="M114.75,204.75h68.5v382.5h-68.5V204.75z"/>
+	<path fill="#666666" d="M193.121,204.75h68.5v382.5h-68.5V204.75z"/>
+	<path fill="#666666" d="M271.492,204.75h68.5v382.5h-68.5V204.75z"/>
+	<path fill="#666666" d="M349.863,204.75h68.5v382.5h-68.5V204.75z"/>
+	<path fill="#666666" d="M428.234,204.75h68.5v382.5h-68.5V204.75z"/>
+</g>
+<g id="section" display="none">
+	<g display="inline">
+		<g id="c30_paper">
+			<path fill="#666666" d="M114.75,337.154l191.412-106.87l191.412,106.87L306.162,444.012L114.75,337.154z"/>
+			<path fill="#666666" d="M114.75,396.013l22.469-19.009l168.943,90.855l168.637-91.243l22.775,19.396L306.162,502.846
+				L114.75,396.013z"/>
+			<path fill="#666666" d="M114.75,454.881l22.469-19.019l168.943,90.866l168.637-91.267l22.775,19.419L306.162,561.716
+				L114.75,454.881z"/>
+		</g>
+		<g id="Capa_1_25_">
+		</g>
+	</g>
+</g>
+</svg>

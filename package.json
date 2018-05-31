@@ -1,26 +1,33 @@
 {
   "name": "tirs_foundation",
-  "version": "8.2.0",
+  "version": "1.0.0",
   "description": "Foundation dependencies for tirs_foundation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "compile-babel": "node_modules/.bin/babel -d Resources/Public/JS/dist/ node_modules/foundation-sites/js/",
-    "prepublish": "npm run compile-babel"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pavelleonidov/tirs_foundation.git"
+    "url": "https://github.com/pavelleonidov/tirs_foundationt"
   },
   "author": "Pavel Leonidov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pavelleonidov/tirs_foundation/issues"
+    "url": "https://github.com/pavelleonidov/tirs_foundation"
   },
-  "homepage": "https://github.com/pavelleonidov/tirs_foundation#readme",
+  "homepage": "https://github.com/pavelleonidov/tirs_foundation",
   "dependencies": {
-    "babel-cli": "^6.11.4",
-    "babel-preset-es2015": "^6.14.0",
-    "foundation-sites": "^6.3"
+    "babel-cli": "^6.24",
+    "babel-preset-es2016": "^6.24",
+    "foundation-sites": "^6.4",
+    "gulp-concat": "^2.6",
+    "gulp-print": "^5.0.0",
+    "gulp-uglify": "^3.0.0",
+    "jquery": "^3.2",
+    "modernizr": "^3.6.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.1"
   }
 }

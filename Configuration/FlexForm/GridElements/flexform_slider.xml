@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<sDEF>
+			<ROOT type="array">
+				<TCEforms>
+					<sheetTitle>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.sheet.general</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el type="array">
+
+					<smartSpeed type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.slider.smartSpeed</label>
+							<config>
+								<type>input</type>
+								<size>5</size>
+								<default>250</default>
+								<eval>num,int</eval>
+							</config>
+						</TCEforms>
+					</smartSpeed>
+
+					<autoplay type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.slider.autoplay</label>
+							<config>
+								<type>check</type>
+								<default>1</default>
+							</config>
+						</TCEforms>
+					</autoplay>
+
+					<autoplayTimeout type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.slider.autoplayTimeout</label>
+							<config>
+								<type>input</type>
+								<size>5</size>
+								<default>5000</default>
+								<eval>num,int</eval>
+							</config>
+						</TCEforms>
+					</autoplayTimeout>
+
+					<autoplayHoverPause type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.slider.autoplayHoverPause</label>
+							<config>
+								<type>check</type>
+								<default>1</default>
+							</config>
+						</TCEforms>
+					</autoplayHoverPause>
+
+					<loop type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.slider.loop</label>
+							<config>
+								<type>check</type>
+								<default>1</default>
+							</config>
+						</TCEforms>
+					</loop>
+
+					<nav type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.slider.nav</label>
+							<config>
+								<type>check</type>
+								<default>1</default>
+							</config>
+						</TCEforms>
+					</nav>
+
+					<dots type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.slider.dots</label>
+							<config>
+								<type>check</type>
+								<default>1</default>
+							</config>
+						</TCEforms>
+					</dots>
+
+					<mouseDrag type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.slider.mouseDrag</label>
+							<config>
+								<type>check</type>
+								<default>1</default>
+							</config>
+						</TCEforms>
+					</mouseDrag>
+
+					<touchDrag type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.slider.touchDrag</label>
+							<config>
+								<type>check</type>
+								<default>1</default>
+							</config>
+						</TCEforms>
+					</touchDrag>
+
+					<autoHeight type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.slider.autoHeight</label>
+							<config>
+								<type>check</type>
+								<default>0</default>
+							</config>
+						</TCEforms>
+					</autoHeight>
+					<equalizeColumns type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.label.equalizeColumns</label>
+							<config>
+								<type>check</type>
+								<default>0</default>
+							</config>
+						</TCEforms>
+					</equalizeColumns>
+				</el>
+			</ROOT>
+		</sDEF>
+		<sslides>
+			<ROOT type="array">
+				<TCEforms>
+					<sheetTitle>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.sheet.slides</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el type="array">
+					<items type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.slider.items</label>
+							<config>
+								<type>input</type>
+								<size>5</size>
+								<default>1</default>
+								<eval>num,int</eval>
+							</config>
+						</TCEforms>
+					</items>
+
+					<slideBy type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.slider.slideBy</label>
+							<config>
+								<type>input</type>
+								<size>5</size>
+								<default>1</default>
+								<eval>num,int</eval>
+							</config>
+						</TCEforms>
+					</slideBy>
+
+					<dotsEach type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.slider.dotsEach</label>
+							<config>
+								<type>input</type>
+								<size>5</size>
+								<default>0</default>
+								<eval>num,int</eval>
+							</config>
+						</TCEforms>
+					</dotsEach>
+
+					<itemsMedium type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.slider.itemsMedium</label>
+							<config>
+								<type>input</type>
+								<size>5</size>
+								<default>0</default>
+								<eval>num,int</eval>
+							</config>
+						</TCEforms>
+					</itemsMedium>
+
+					<slideByMedium type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.slider.slideByMedium</label>
+							<config>
+								<type>input</type>
+								<size>5</size>
+								<default>0</default>
+								<eval>num,int</eval>
+							</config>
+						</TCEforms>
+					</slideByMedium>
+
+					<dotsEachMedium type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.slider.dotsEachMedium</label>
+							<config>
+								<type>input</type>
+								<size>5</size>
+								<default>0</default>
+								<eval>num,int</eval>
+							</config>
+						</TCEforms>
+					</dotsEachMedium>
+				</el>
+			</ROOT>
+		</sslides>
+		<smisc>
+			<ROOT type="array">
+				<TCEforms>
+					<sheetTitle>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.sheet.misc</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el type="array">
+					<center type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.slider.center</label>
+							<config>
+								<type>check</type>
+								<default>0</default>
+							</config>
+						</TCEforms>
+					</center>
+
+					<pullDrag type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.slider.pullDrag</label>
+							<config>
+								<type>check</type>
+								<default>0</default>
+							</config>
+						</TCEforms>
+					</pullDrag>
+
+					<freeDrag type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.slider.freeDrag</label>
+							<config>
+								<type>check</type>
+								<default>0</default>
+							</config>
+						</TCEforms>
+					</freeDrag>
+
+					<startPosition type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.slider.startPosition</label>
+							<config>
+								<type>input</type>
+								<size>5</size>
+								<default>0</default>
+								<eval>num,int,string</eval>
+							</config>
+						</TCEforms>
+					</startPosition>
+
+					<rewind type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:tirs_foundation/Resources/Private/Language/locallang_db.xlf:grid.slider.rewind</label>
+							<config>
+								<type>check</type>
+								<default>0</default>
+							</config>
+						</TCEforms>
+					</rewind>
+				</el>
+			</ROOT>
+		</smisc>
+	</sheets>
+</T3DataStructure>

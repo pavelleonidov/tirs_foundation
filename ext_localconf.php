@@ -2,7 +2,7 @@
 /*******************************************************************
  *  Copyright notice
  *
- *  (c) 2015 Pavel Leonidov <pavel.leonidov@exconcept.com>, EXCONCEPT GmbH
+ *  (c) 2017 - 2018 Pavel Leonidov <info@pavel-leonidov.de>
  *
  *  All rights reserved
  *
@@ -24,6 +24,6 @@
  ******************************************************************/
 
 // include TSConfig (backend configuration)
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:' . $_EXTKEY . '/Configuration/PageTSConfig/main.ts">');
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:' . $_EXTKEY . '/Configuration/TSConfig/main.ts">');
 
 ?>

@@ -1,8 +1,171 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
-<div id="c{data.uid}" class="two-column {f:if(condition: '{data.layout} != "0"', then: '{data.layout}', else: 'default')}<f:if condition="{background}"><f:then> background</f:then><f:else><f:if condition="{data.background_color}"> background</f:if></f:else></f:if>" <f:if condition="{background}"><f:then>style="background-image: url({f:uri.image(src: '{background.0.uid}', treatIdAsReference: 1)})"</f:then><f:else><f:if condition="{data.background_color}">style="background-color: {data.background_color};"</f:if></f:else></f:if>>
-    <div class="row{f:if(condition: '{collapse}', then: ' collapse')}{f:if(condition: '{collapseOnSmall}', then: ' small-collapse medium-uncollapse')}"{f:if(condition: '{equalizeColumns}', then: ' data-equalizer data-equalize-on="medium"')}>
-        <f:render partial="Header" arguments="{_all}" />
-        <f:render section="main" />
-    </div>
-</div>
+<f:spaceless>
+    <f:if condition="{data.frame_class} != none">
+        <f:then>
+
+            <div id="c{data.uid}" class="frame frame-{data.frame_class} frame-type-{data.CType} frame-layout-{data.layout}{f:if(condition: data.space_before_class, then: ' frame-space-before-{data.space_before_class}')}{f:if(condition: data.space_after_class, then: ' frame-space-after-{data.space_after_class}')}{f:if(condition: backgroundCell, then: ' frame-background-cell')}">
+
+
+                <f:if condition="{data.parentgrid_uid}">
+                    <f:then>
+                        <div class="grid-x {f:if(condition: '{backgroundCell}', then: 'grid-margin-x', else: 'grid-padding-x')} {f:if(condition: '{verticalAlignment}', then: '{verticalAlignment}')}">
+                            <div class="cell">
+                                <f:if condition="{data._LOCALIZED_UID}">
+                                    <a id="c{data._LOCALIZED_UID}"></a>
+                                </f:if>
+                                <f:render section="Before" optional="true">
+                                    <f:render partial="DropIn/Before/All" arguments="{_all}" />
+                                </f:render>
+                                <f:render section="Header" optional="true">
+                                    <f:render partial="Header/All" arguments="{_all}" />
+                                </f:render>
+                            </div>
+                            <f:render section="Main" optional="true" />
+                        </div>
+                    </f:then>
+                    <f:else>
+                        <f:if condition="{widthOfSection} != 'grid'">
+                            <f:then>
+                                <f:if condition="{widthOfSection} == 'full'">
+                                    <f:then>
+                                        <div class="grid-container full">
+                                            <div class="grid-x {f:if(condition: '{backgroundCell}', then: 'grid-margin-x', else: 'grid-padding-x')} {f:if(condition: '{verticalAlignment}', then: '{verticalAlignment}')}">
+                                                <div class="cell">
+                                                    <f:if condition="{data._LOCALIZED_UID}">
+                                                        <a id="c{data._LOCALIZED_UID}"></a>
+                                                    </f:if>
+                                                    <f:render section="Before" optional="true">
+                                                        <f:render partial="DropIn/Before/All" arguments="{_all}" />
+                                                    </f:render>
+                                                    <f:render section="Header" optional="true">
+                                                        <f:render partial="Header/All" arguments="{_all}" />
+                                                    </f:render>
+                                                </div>
+                                                <f:render section="Main" optional="true" />
+                                            </div>
+                                        </div>
+                                    </f:then>
+                                    <f:else>
+                                        <div class="grid-container fluid">
+                                            <div class="grid-x {f:if(condition: '{backgroundCell}', then: 'grid-margin-x', else: 'grid-padding-x')}">
+                                                <div class="cell">
+                                                    <f:if condition="{data._LOCALIZED_UID}">
+                                                        <a id="c{data._LOCALIZED_UID}"></a>
+                                                    </f:if>
+                                                    <f:render section="Before" optional="true">
+                                                        <f:render partial="DropIn/Before/All" arguments="{_all}" />
+                                                    </f:render>
+                                                    <f:render section="Header" optional="true">
+                                                        <f:render partial="Header/All" arguments="{_all}" />
+                                                    </f:render>
+                                                </div>
+                                                <f:render section="Main" optional="true" />
+                                            </div>
+                                        </div>
+                                    </f:else>
+                                </f:if>
+                            </f:then>
+                            <f:else>
+                                <div class="grid-container">
+                                    <div class="grid-x {f:if(condition: '{backgroundCell}', then: 'grid-margin-x', else: 'grid-padding-x')}">
+                                        <div class="cell">
+                                            <f:if condition="{data._LOCALIZED_UID}">
+                                                <a id="c{data._LOCALIZED_UID}"></a>
+                                            </f:if>
+                                            <f:render section="Before" optional="true">
+                                                <f:render partial="DropIn/Before/All" arguments="{_all}" />
+                                            </f:render>
+                                            <f:render section="Header" optional="true">
+                                                <f:render partial="Header/All" arguments="{_all}" />
+                                            </f:render>
+                                        </div>
+                                        <f:render section="Main" optional="true" />
+                                    </div>
+                                </div>
+                            </f:else>
+                        </f:if>
+                    </f:else>
+                </f:if>
+
+
+                <f:render section="Footer" optional="true">
+                    <f:render partial="Footer/All" arguments="{_all}" />
+                </f:render>
+                <f:render section="After" optional="true">
+                    <f:render partial="DropIn/After/All" arguments="{_all}" />
+                </f:render>
+            </div>
+
+        </f:then>
+        <f:else>
+
+            <a id="c{data.uid}"></a>
+            <f:if condition="{data._LOCALIZED_UID}">
+                <a id="c{data._LOCALIZED_UID}"></a>
+            </f:if>
+            <f:if condition="{data.space_before_class}">
+                <div class="frame-space-before-{data.space_before_class}"></div>
+            </f:if>
+            <f:render section="Before" optional="true">
+                <f:render partial="DropIn/Before/All" arguments="{_all}" />
+            </f:render>
+            <f:render section="Header" optional="true">
+                <f:render partial="Header/All" arguments="{_all}" />
+            </f:render>
+
+            <f:if condition="{data.parentgrid_uid}">
+                <f:then>
+                    <div class="grid-x grid-padding-x">
+                        <f:render partial="Inner" arguments="{_all}" />
+                    </div>
+                </f:then>
+                <f:else>
+                    <f:if condition="{widthOfSection} != 'grid'">
+                        <f:then>
+                            <f:if condition="{widthOfSection} == 'full'">
+                                <f:then>
+                                    <div class="grid-container full">
+                                        <div class="grid-x no-space">
+                                            <f:render partial="Inner" arguments="{_all}" />
+                                        </div>
+                                    </div>
+                                </f:then>
+
+                                <f:else>
+                                    <div class="grid-container fluid">
+                                        <div class="grid-x grid-padding-x">
+                                            <f:render partial="Inner" arguments="{_all}" />
+                                        </div>
+                                    </div>
+                                </f:else>
+                            </f:if>
+                        </f:then>
+                        <f:else>
+
+                            <div class="grid-container">
+                                <div class="grid-x grid-padding-x">
+                                    <f:render partial="Inner" arguments="{_all}" />
+                                </div>
+                            </div>
+
+                        </f:else>
+                    </f:if>
+                </f:else>
+            </f:if>
+
+            <f:render section="Footer" optional="true">
+                <f:render partial="Footer/All" arguments="{_all}" />
+            </f:render>
+            <f:render section="After" optional="true">
+                <f:render partial="DropIn/After/All" arguments="{_all}" />
+            </f:render>
+            <f:if condition="{data.space_after_class}">
+                <div class="frame-space-after-{data.space_after_class}"></div>
+            </f:if>
+
+        </f:else>
+    </f:if>
+</f:spaceless>
 </html>
+
+

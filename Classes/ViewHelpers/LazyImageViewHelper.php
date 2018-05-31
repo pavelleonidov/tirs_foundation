@@ -1,16 +1,10 @@
 <?php
 namespace TIRS\TirsFoundation\ViewHelpers;
 
-use TYPO3\CMS\Core\Imaging\ImageManipulation\CropVariantCollection;
-use TYPO3\CMS\Core\Resource\Exception\ResourceDoesNotExistException;
-use TYPO3\CMS\Core\Resource\FileInterface;
-use TYPO3\CMS\Core\Resource\FileReference;
-use TYPO3\CMS\Extbase\Domain\Model\AbstractFileFolder;
-
 /*******************************************************************
  *  Copyright notice
  *
- *  (c) 2017 Pavel Leonidov <info@pavel-leonidov.de>
+ *  (c) 2017 - 2018 Pavel Leonidov <info@pavel-leonidov.de>
  *
  *  All rights reserved
  *
@@ -30,6 +24,12 @@ use TYPO3\CMS\Extbase\Domain\Model\AbstractFileFolder;
  *
  *  This copyright notice MUST APPEAR in all copies of the script!
  ******************************************************************/
+
+use TYPO3\CMS\Core\Imaging\ImageManipulation\CropVariantCollection;
+use TYPO3\CMS\Core\Resource\Exception\ResourceDoesNotExistException;
+use TYPO3\CMS\Core\Resource\FileInterface;
+use TYPO3\CMS\Core\Resource\FileReference;
+use TYPO3\CMS\Extbase\Domain\Model\AbstractFileFolder;
 
 class LazyImageViewHelper extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractTagBasedViewHelper
 {
@@ -141,7 +141,6 @@ class LazyImageViewHelper extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractTagBa
 
 			$this->tag->addAttribute('data-src', implode(',', $interchangeData));
 			$this->tag->addAttribute('src', '/clear.gif');
-
 			$alt = $image->getProperty('alternative');
 			$title = $image->getProperty('title');
 

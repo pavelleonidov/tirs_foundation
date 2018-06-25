@@ -4,7 +4,7 @@ tirs_foundation.templates.gridelements {
     partialRootPath =
 }
 
-mq_base {
+tirs_configuration {
     templates {
         templateRootPath = EXT:tirs_foundation/Resources/Private/Templates/Page/
         partialRootPath = EXT:tirs_foundation/Resources/Private/Partials/Page/
